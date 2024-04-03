@@ -38,6 +38,12 @@ btn.addEventListener("click", async (evt) => {
   evt.preventDefault();
   let amount = document.querySelector(".amount input");
   let amVal = amount.value;
+  if(isNaN(amVal)){
+    alert("enter a number");
+    amount.value = "";
+    message.innerText ="";
+    return;
+  }
   if (amVal === "" && amVal >= 0) {
     amVal = 1;
     amount.value = "1";
