@@ -93,3 +93,31 @@ form button {
 form button:hover {
     cursor: pointer;
 }
+
+/* responsive */
+@media (max-width:830px) {
+    .select-container {
+        width: 4rem;
+    }
+    .select-container select {
+        width: 2rem;
+    
+    }
+    
+}
+
+@media (max-width:600px) {
+    .select-container {
+        width: 3rem;
+    }
+    .select-container select {
+        width: 1rem;
+    
+    }
+    .form button {
+        height: 4rem;
+        font-size: 0.8rem;
+    }
+    
+}
+
