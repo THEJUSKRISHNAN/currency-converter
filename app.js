@@ -57,7 +57,7 @@ btn.addEventListener("click", async (evt) => {
 
     let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()];
     let finalAmaount = amVal * rate;
-    message.innerText = `${amVal} ${fromCurr.value} = ${finalAmaount} ${toCurr.value}`;
+    message.innerText = `${amVal} ${fromCurr.value} = ${finalAmaount.toFixed(2)} ${toCurr.value}`;
   } catch (e) {
     console.log(e);
   }
