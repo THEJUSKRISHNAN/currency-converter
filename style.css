@@ -86,7 +86,7 @@ form input {
 }
 
 form button {
-    height: 2rem;
+    padding: 0.5rem;
     background-color: #8DB38B;
     color: black;
     font-size: 1.15rem;
@@ -118,7 +118,6 @@ form button:hover {
     
     }
     .form button {
-        height: 4rem;
         font-size: 0.8rem;
     }
     
